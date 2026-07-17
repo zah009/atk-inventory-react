@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://esaich.github.io/atk-inventory-frontend/",
+  "homepage": "https://zah009.github.io/atk-inventory-react/",
   "scripts": {
     "go": "vite",
     "build": "vite build",

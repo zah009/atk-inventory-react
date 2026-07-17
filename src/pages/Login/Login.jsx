@@ -134,7 +134,7 @@ export default function Login({ onLogin }) {
                 fullWidth={true}
                 size="lg"
                 disabled={loading}
-                icon={loading ? <span className="animate-spin">⏳</span> : <span>🚀</span>}
+                icon={loading ? <span className="animate-spin">⏳</span> : <span></span>}
               />
             </form>
 

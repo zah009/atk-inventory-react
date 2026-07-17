@@ -194,19 +194,19 @@ export const permintaanBarangAPI = {
 // ==========================================
 export const barangKeluarAPI = {
   getAll: async () => {
-    return apiCall('/BarangKeluar');
+    return apiCall('/api/BarangKeluar');
   },
   
   getById: async (id) => {
-    return apiCall(`/BarangKeluar/${id}`);
+    return apiCall(`/api/BarangKeluar/${id}`);
   },
   
   getByPermintaan: async (permintaanId) => {
-    return apiCall(`/BarangKeluar/by-permintaan/${permintaanId}`);
+    return apiCall(`/api/BarangKeluar/by-permintaan/${permintaanId}`);
   },
   
   getByBarang: async (barangId) => {
-    return apiCall(`/BarangKeluar/by-barang/${barangId}`);
+    return apiCall(`/api/BarangKeluar/by-barang/${barangId}`);
   },
 };
 
