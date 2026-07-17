@@ -1,5 +1,5 @@
 // src/services/api.js
-const API_BASE_URL = 'http://localhost:5034'; // GANTI dengan URL API Anda
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080'; // GANTI dengan URL API Anda
 
 // Helper function untuk API calls
 export const apiCall = async (endpoint, options = {}) => {
